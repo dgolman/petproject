@@ -108,6 +108,7 @@
   height:100%;
   position: absolute;
   background-image:url('../images/dogbg.png');
+  /*background-origin: black;*/
   background-size:cover;
   -webkit-filter: blur(8px);
   -moz-filter: blur(8px);
@@ -139,8 +140,8 @@
 .panel-custom > .panel-heading {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #f0ad4e; 
-  border-color: #eea236;
+  background-color: #4e91f0; 
+  border-color: #1367df;
 }
 
 .panel-custom > .panel-body {
