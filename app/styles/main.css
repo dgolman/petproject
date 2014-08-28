@@ -93,53 +93,53 @@
   position: absolute;
   font-weight: 700;
   font-size: 120px;
-  color: white;
+  color: black;
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  /*text-shadow: 5px 5px black;*/
 }
 
-.custom-background {
-  background-image: url('../images/dogbg.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-clip: content-box;
+.title-font {
+  opacity: 1;
 }
 
 .blur { 
+  top: 100%;
   width:100%;
   height:100%;
   position: absolute;
-  background-image:url('../images/dogbg.png');
-  /*background-origin: black;*/
+  /*background-color: #4e91f0;*/
+  background-color: white;
+  /*background-image:url('../images/dogbg.png');*/
   background-size:cover;
   -webkit-filter: blur(8px);
   -moz-filter: blur(8px);
   -ms-filter: blur(8px);
   -o-filter: blur(8px);
   filter: blur(8px);
-  /*height:100%;
-  width: 100%;
-  position: absolute;
-  -webkit-filter: blur(13px);
-  -moz-filter: blur(13px);
-  -o-filter: blur(13px);
-  -ms-filter: blur(13px);
-  filter: blur(13px);*/
 }
 .paw-pattern {
   position: absolute;
-  /*background-color: black;*/
-  height: 100%;
+  top: 100%;
   width: 100%;
-  background-size: 5%;
-  /*background-image: url('../images/pawprint.png');*/
-  /*background-repeat: repeat;*/
+  height: 100%;
+  background-size: 14%;
+  /*background-image: url('../images/pawprintspace.png');*/
+  background-image: url('../images/pawprintdiag.png');
+  background-repeat: repeat-x;
 }
 .overlay {
+  top: 100%;
   width:100%;
   height:100%;
   position: absolute;
-  background-color: black;
-  opacity: .45;
+  background-color: white;
+  opacity: .4;
+}
+.info {
+  top: 100%;
+  width:100%;
+  height:100%;
+  position: absolute;
 }
 
 .btn-custom {
@@ -157,8 +157,10 @@
 .panel-custom > .panel-heading {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #4e91f0; 
-  border-color: #1367df;
+  /*background-color: #4e91f0; */
+  background-color: #f0ad4e;
+  /*border-color: #1367df;*/
+  border-color: #df8a13;
 }
 
 .panel-custom > .panel-body {
@@ -174,4 +176,15 @@
   font-size: 30px;
   font-weight: 700;
   color: white;
+}
+
+.welcome {
+  position: absolute;
+  height: 80%;
+  width: 100%;
+
+  background-image: url('../images/dogbg_orig.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-clip: content-box;
 }
