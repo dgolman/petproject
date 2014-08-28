@@ -106,6 +106,10 @@ body {
   background-color: #f0ad4e; 
 }
 
+.panel-custom > .panel-body {
+  height: 400px;
+}
+
 .panel-title {
   font-size: 30px;
   font-weight: 700;
