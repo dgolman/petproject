@@ -9,6 +9,7 @@
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/selectize/dist/css/selectize.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -16,35 +17,10 @@
     <link rel="stylesheet" href="styles/button3d.css">
     <!-- endbuild -->
   </head>
-  <!-- <body ng-app="petsApp" style="background-image:url('images/dogbg.png');background-size:100%;background-repeat:no-repeat;background-clip:content-box;height:100%"> -->
+  
   <body ng-app="petsApp">
-    <div class="welcome"></div>
-    <div class="blur"></div>
-    <div class="paw-pattern"></div>
-    <div class="overlay"></div>
-
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
-    <!-- Add your site or application content here -->
-    <div class="" style="">
-<!--       <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#">Home</a></li>
-          <li><a ng-href="#/about">About</a></li>
-          <li><a ng-href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">pets</h3>
-      </div> -->
-
-      <div ng-view=""></div>
-
-<!--       <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
-      </div> -->
-    </div>
-
+    
+    <div ng-view="" style="height:100%"></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -76,6 +52,9 @@
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/sifter/sifter.js"></script>
+    <script src="bower_components/microplugin/src/microplugin.js"></script>
+    <script src="bower_components/selectize/dist/js/selectize.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
